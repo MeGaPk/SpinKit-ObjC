@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SpinKit'
-  s.version      = '1.2.0'
+  s.version      = '1.2.1'
   s.authors      = {'Ramon Torres' => 'raymondjavaxx@gmail.com'}
   s.homepage     = 'https://github.com/raymondjavaxx/SpinKit-ObjC'
   s.summary      = 'UIActivityIndicatorView replacement with multiple styles and animations.'
