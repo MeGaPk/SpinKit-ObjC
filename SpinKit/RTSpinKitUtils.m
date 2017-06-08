@@ -32,6 +32,7 @@
 #import "RTSpinKitCircleFlipAnimation.h"
 #import "RTSpinKitFadingCircleAltAnimation.h"
 #import "RTSpinKitFadingCircleAnimation.h"
+#import "RTSpinKitFadingCircleSixBubblesAnimation.h"
 #import "RTSpinKitPlaneAnimation.h"
 #import "RTSpinKitPulseAnimation.h"
 #import "RTSpinKitThreeBounceAnimation.h"
@@ -96,6 +97,9 @@ NSObject<RTSpinKitAnimating>* RTSpinKitAnimationFromStyle(RTSpinKitViewStyle sty
 
         case RTSpinKitViewStyleFadingCircleAlt:
             return [[RTSpinKitFadingCircleAltAnimation alloc] init];
+
+        case RTSpinKitViewStyleFadingCircleSixBubbles:
+            return [[RTSpinKitFadingCircleSixBubblesAnimation alloc] init];
 
         case RTSpinKitViewStyleArc:
             return [[RTSpinKitArcAnimation alloc] init];

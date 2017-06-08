@@ -78,6 +78,11 @@
                backgroundColor:[UIColor colorWithRed:0.60 green:0.0 blue:0.0 alpha:1.0]
                          label:@"FadingCircleAlt"];
 
+
+    [self insertSpinnerOfStyle: RTSpinKitViewStyleFadingCircleSixBubbles
+               backgroundColor:[UIColor colorWithRed:0.60 green:0.0 blue:0.0 alpha:1.0]
+                         label:@"FadingCircleSixBubbles"];
+
     [self insertSpinnerOfStyle: RTSpinKitViewStyleArc
                backgroundColor:[UIColor colorWithRed:0.56 green:0.27 blue:0.68 alpha:1.0]
                          label:@"Arc"];

@@ -39,6 +39,7 @@ typedef NS_ENUM(NSInteger, RTSpinKitViewStyle) {
     RTSpinKitViewStyleWordPress,
     RTSpinKitViewStyleFadingCircle,
     RTSpinKitViewStyleFadingCircleAlt,
+    RTSpinKitViewStyleFadingCircleSixBubbles,
     RTSpinKitViewStyleArc,
     RTSpinKitViewStyleArcAlt
 };

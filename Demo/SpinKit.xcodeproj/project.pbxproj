@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		028F586B19C75CBE0070546A /* RTSpinKitArcAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 028F586A19C75CBD0070546A /* RTSpinKitArcAltAnimation.m */; };
 		02EE552619C22DA600D58D49 /* RTSpinKitArcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EE552519C22DA600D58D49 /* RTSpinKitArcAnimation.m */; };
+		31821ACCFAD266B0BDB4D176 /* RTSpinKitFadingCircleSixBubblesAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3182115475443FC40D47C5DF /* RTSpinKitFadingCircleSixBubblesAnimation.m */; };
 		F646194B1874E9FB00ED6B1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F646194A1874E9FB00ED6B1B /* Foundation.framework */; };
 		F646194D1874E9FB00ED6B1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F646194C1874E9FB00ED6B1B /* CoreGraphics.framework */; };
 		F646194F1874E9FB00ED6B1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F646194E1874E9FB00ED6B1B /* UIKit.framework */; };
@@ -54,6 +55,8 @@
 		028F586A19C75CBD0070546A /* RTSpinKitArcAltAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitArcAltAnimation.m; sourceTree = "<group>"; usesTabs = 0; };
 		02EE552419C22DA600D58D49 /* RTSpinKitArcAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitArcAnimation.h; sourceTree = "<group>"; };
 		02EE552519C22DA600D58D49 /* RTSpinKitArcAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitArcAnimation.m; sourceTree = "<group>"; };
+		3182115475443FC40D47C5DF /* RTSpinKitFadingCircleSixBubblesAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitFadingCircleSixBubblesAnimation.m; sourceTree = "<group>"; };
+		3182152BDB0FE2D188CA7C12 /* RTSpinKitFadingCircleSixBubblesAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitFadingCircleSixBubblesAnimation.h; sourceTree = "<group>"; };
 		F64619471874E9FB00ED6B1B /* SpinKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F646194A1874E9FB00ED6B1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F646194C1874E9FB00ED6B1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -248,6 +251,8 @@
 				02EE552519C22DA600D58D49 /* RTSpinKitArcAnimation.m */,
 				028F586919C75CBD0070546A /* RTSpinKitArcAltAnimation.h */,
 				028F586A19C75CBD0070546A /* RTSpinKitArcAltAnimation.m */,
+				3182152BDB0FE2D188CA7C12 /* RTSpinKitFadingCircleSixBubblesAnimation.h */,
+				3182115475443FC40D47C5DF /* RTSpinKitFadingCircleSixBubblesAnimation.m */,
 			);
 			name = Animations;
 			path = ../../SpinKit/Animations;
@@ -372,6 +377,7 @@
 				02EE552619C22DA600D58D49 /* RTSpinKitArcAnimation.m in Sources */,
 				F6BC23CD19B972340055D239 /* RTSpinKitWaveAnimation.m in Sources */,
 				F6BC23C819B972340055D239 /* RTSpinKitFadingCircleAnimation.m in Sources */,
+				31821ACCFAD266B0BDB4D176 /* RTSpinKitFadingCircleSixBubblesAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
